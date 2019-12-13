@@ -55,19 +55,19 @@ Ultimately, we outlined three questions to answer in our problem statement:
 
 Our answers to each are as follows:
 
-### Question 1
+### Viability of Model for Predicting Player Injuries
 
 Ultimately, we are able to build a model to predict player injuries  At this point, we are unable to provide a narrower timeline than one month on our predictions.  However, we feel comfortable that our model will pick up on roughly 80% of player injuries before they occur.  
 
 We talk about player injuries as random events - a twist of the ankle, a hit to the arm, a pulled muscle and other things that are typically viewed as bad luck.  As a result, we are fairly confident that we have debunked this line of thinking and that we can use PUBLICLY available data to better predict player injuries.
 
-### Question 2
+### Model Applications for Teams
 
 There are a number of ways this model can be used.  The first and most obvious is in the moment decision making: if our model predicts that a player is set to pick up an injury, the coaching staff can take a number of measures to attempt to prevent this or limit the damage including holding the player out of games, limiting the player's minutes in the games he does play, or even limiting the players involvement in the minutes he is playing.  It is ultimately up to the discretion of the coach and highly dependent on team context on how the coach can handle this, but these are all valid strategies and can help a team prevent injuries to its prized assets.
 
 The second way this model can be used is to evaluate player transaction decisions.  If this model has recently deemed a player at a higher risk of injury, the front office in question may hesitate to acquire the player in a trade or off free agency or otherwise devalue the player.  This model can also be combined with other predictive models.  For instance, if we have simulations on how a given players season will look, we can potentially also predict the likelihood the player will suffer an injury during the season.  Interestingly, the same can be true for the NBA Draft.  For instance, if our analytics department has a model to simulate a prospect's rookie season, we can potentially assess injury risk for that player and adjust our draft ranking accordingly.  
 
-### Question 3
+### Model-Driven Strategy Recommendations
 
 Finally, we can view the feature importances of our model to adjust our high level thinking of injuries.  This is somewhat similar to our answer to Question 2 but allows us to build a general analytical framework for how we view these sorts of problems as opposed to simply making predictions.  Our key takeaways and conclusions from viewing the feature importances are below.  Some are suprising and some are less so.  For the full breakdown of feature importance and further context on the ideas presented below, please see the Modeling codebook.
 
